@@ -1,0 +1,18 @@
+i want to create an erp system for my lab grown diamond manufacturing and growing facilities. around 2000 + employees are there in total for multiple locations, include new york, antwerp, hong kong, dubai, hq office in mumbai, 1 manufacturing and 1 growing units in mumbai, and 1 unit in odisha. the inventory list for polished stones is about 100000 carats and for growing is about 45000 carats per month. in about a month the yeild for polished diamond is about 15000 carat per month.
+We have jewellery brands in europe, USA and India. with manufacturing units in india and china.
+my main area of focus is to reduce the amount of planning that goes to making a single 15-20 ct rough diamond, where i get about 25-40 plans, where i have to analyse market demand, yield to market ratio, sellability of a particular diamond shape. our inventory for polished diamond starts from 0.001-15ct carat, colour d-k, clarity fl-si3, cut xxx. for jewellery we make fashion, fine, accosory jewelleries. we also have a r&d department, where the team researches on other applications where diamond can be used other then the gem and jewellery industry, it is being used in Military, AeroSpace, Quantum Computing, Optical, Medical, Thermal, Semiconductor, Mechanical, Cutting and Tools Industries and many other more.
+
+We manufacture and grow lab grown diamonds at a scale of 15000 rough diamonds grown per month and about 10000 diamonds are manufactured into cutting, polishing, grading, planning, happens in multiple locations in india. I want to create a complex system for helping me sort with excel sheets and python coding to manage my inventory from rough diamond to polish diamond and then how Lab grown diamonds are used for Industry applications like super computers, military, medical, optiocal, thermal. Diamonds can possibly replace silicon in the future.
+
+add a list of 100000 diamond data of carat 0.001 - 50ct, color d-k, cut xxx / vg /g, clarty fl - si3. igi, gia and hrd graded diamonds. locations are mumbai, hong kong, dubai, antwerp, new york, and odisa.
+
+now how to micro manage what is happening in the manufacturing department, more in detail would be in the planning department, where all the magic happens. this is where the diamond is first taken in xray (galaxy machine) they decide which diamonds come out of according to the inclusions prsent in the diamond while forming.
+also add shapes of diamonds about 100 of thems, basics being round, oval, princess, heart, trapiz, rose cut, marquzee, cushion, old cushion and etc.
+I want a section where there are 20 different plans for one rough lab grown diamond of different shapes and sizes, while calculating the current market trends, growth, salebility, yeild to market ratio.
+
+add a tab to select in the top 10 cutting plans to give a go ahead to start making that plan according for each rough diamond.
+
+create an erp system for the entire diamond manufactruing, growing and selling. for over 2000 employees, in different locations. this should also manage all the micro decisions to be made on the page itself, by making a decision of any diamond in manufacturing or growing or jewellery facility.
+also add a jewellery sections with multiples brands in regions like usa, europe, australia, japan, uk, canada, catering to fine, accesory, fashion jewelry. with having multiple teams and designers from all around the globe.
+
+to view inventory i want to also look at the other side where diamonds are being other then gem and jewelry industry, it is being using in industires like cutting and tools, miltary, space, medical, optical, semiconductor, data processing, quantam computing, and other advanced materials industries.

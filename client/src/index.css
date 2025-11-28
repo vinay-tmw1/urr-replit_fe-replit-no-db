@@ -1,0 +1,126 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  --background: hsl(0 0% 100%);
+  --foreground: hsl(224 71% 4%);
+  --card: hsl(0 0% 100%);
+  --card-foreground: hsl(224 71% 4%);
+  --popover: hsl(0 0% 100%);
+  --popover-foreground: hsl(224 71% 4%);
+  --primary: hsl(220 100% 50%);
+  --primary-foreground: hsl(210 40% 98%);
+  --secondary: hsl(220 13% 32%);
+  --secondary-foreground: hsl(210 40% 98%);
+  --muted: hsl(220 13% 91%);
+  --muted-foreground: hsl(220 9% 46%);
+  --accent: hsl(142 70% 45%);
+  --accent-foreground: hsl(355 7% 97%);
+  --destructive: hsl(0 84% 60%);
+  --destructive-foreground: hsl(210 40% 98%);
+  --border: hsl(220 13% 91%);
+  --input: hsl(220 13% 91%);
+  --ring: hsl(220 100% 50%);
+  --chart-1: hsl(220 100% 50%);
+  --chart-2: hsl(142 70% 45%);
+  --chart-3: hsl(42 100% 50%);
+  --chart-4: hsl(280 100% 50%);
+  --chart-5: hsl(340 100% 50%);
+  --sidebar: hsl(0 0% 100%);
+  --sidebar-foreground: hsl(224 71% 4%);
+  --sidebar-primary: hsl(220 100% 50%);
+  --sidebar-primary-foreground: hsl(210 40% 98%);
+  --sidebar-accent: hsl(220 13% 91%);
+  --sidebar-accent-foreground: hsl(220 100% 50%);
+  --sidebar-border: hsl(220 13% 91%);
+  --sidebar-ring: hsl(220 100% 50%);
+  --font-sans: Inter, system-ui, sans-serif;
+  --font-serif: Georgia, serif;
+  --font-mono: Menlo, monospace;
+  --radius: 8px;
+  --shadow-2xs: 0px 2px 0px 0px hsl(220 100% 50% / 0.00);
+  --shadow-xs: 0px 2px 0px 0px hsl(220 100% 50% / 0.00);
+  --shadow-sm: 0px 2px 0px 0px hsl(220 100% 50% / 0.00), 0px 1px 2px -1px hsl(220 100% 50% / 0.00);
+  --shadow: 0px 2px 0px 0px hsl(220 100% 50% / 0.00), 0px 1px 2px -1px hsl(220 100% 50% / 0.00);
+  --shadow-md: 0px 2px 0px 0px hsl(220 100% 50% / 0.00), 0px 2px 4px -1px hsl(220 100% 50% / 0.00);
+  --shadow-lg: 0px 2px 0px 0px hsl(220 100% 50% / 0.00), 0px 4px 6px -1px hsl(220 100% 50% / 0.00);
+  --shadow-xl: 0px 2px 0px 0px hsl(220 100% 50% / 0.00), 0px 8px 10px -1px hsl(220 100% 50% / 0.00);
+  --shadow-2xl: 0px 2px 0px 0px hsl(220 100% 50% / 0.00);
+  --tracking-normal: 0em;
+  --spacing: 0.25rem;
+}
+
+.dark {
+  --background: hsl(224 71% 4%);
+  --foreground: hsl(213 31% 91%);
+  --card: hsl(224 71% 4%);
+  --card-foreground: hsl(213 31% 91%);
+  --popover: hsl(224 71% 4%);
+  --popover-foreground: hsl(213 31% 91%);
+  --primary: hsl(220 100% 50%);
+  --primary-foreground: hsl(220 13% 9%);
+  --secondary: hsl(215 25% 27%);
+  --secondary-foreground: hsl(210 40% 98%);
+  --muted: hsl(215 28% 17%);
+  --muted-foreground: hsl(217 10% 64%);
+  --accent: hsl(142 70% 45%);
+  --accent-foreground: hsl(222 47% 11%);
+  --destructive: hsl(0 62% 30%);
+  --destructive-foreground: hsl(210 40% 98%);
+  --border: hsl(215 28% 17%);
+  --input: hsl(215 28% 17%);
+  --ring: hsl(220 100% 50%);
+  --chart-1: hsl(220 100% 50%);
+  --chart-2: hsl(142 70% 45%);
+  --chart-3: hsl(42 100% 50%);
+  --chart-4: hsl(280 100% 50%);
+  --chart-5: hsl(340 100% 50%);
+  --sidebar: hsl(224 71% 4%);
+  --sidebar-foreground: hsl(213 31% 91%);
+  --sidebar-primary: hsl(220 100% 50%);
+  --sidebar-primary-foreground: hsl(210 40% 98%);
+  --sidebar-accent: hsl(215 28% 17%);
+  --sidebar-accent-foreground: hsl(220 100% 50%);
+  --sidebar-border: hsl(215 28% 17%);
+  --sidebar-ring: hsl(220 100% 50%);
+  --font-sans: Inter, system-ui, sans-serif;
+  --font-serif: Georgia, serif;
+  --font-mono: Menlo, monospace;
+  --radius: 8px;
+  --shadow-2xs: 0px 2px 0px 0px hsl(220 100% 50% / 0.00);
+  --shadow-xs: 0px 2px 0px 0px hsl(220 100% 50% / 0.00);
+  --shadow-sm: 0px 2px 0px 0px hsl(220 100% 50% / 0.00), 0px 1px 2px -1px hsl(220 100% 50% / 0.00);
+  --shadow: 0px 2px 0px 0px hsl(220 100% 50% / 0.00), 0px 1px 2px -1px hsl(220 100% 50% / 0.00);
+  --shadow-md: 0px 2px 0px 0px hsl(220 100% 50% / 0.00), 0px 2px 4px -1px hsl(220 100% 50% / 0.00);
+  --shadow-lg: 0px 2px 0px 0px hsl(220 100% 50% / 0.00), 0px 4px 6px -1px hsl(220 100% 50% / 0.00);
+  --shadow-xl: 0px 2px 0px 0px hsl(220 100% 50% / 0.00), 0px 8px 10px -1px hsl(220 100% 50% / 0.00);
+  --shadow-2xl: 0px 2px 0px 0px hsl(220 100% 50% / 0.00);
+}
+
+@layer base {
+  * {
+    @apply border-border;
+  }
+
+  body {
+    @apply font-sans antialiased bg-background text-foreground;
+  }
+}
+
+/* Custom metric card background colors */
+.bg-primary\/10 {
+  background-color: hsl(220 100% 50% / 0.1);
+}
+
+.bg-accent\/10 {
+  background-color: hsl(142 70% 45% / 0.1);
+}
+
+.bg-secondary\/10 {
+  background-color: hsl(220 13% 32% / 0.1);
+}
+
+.bg-destructive\/10 {
+  background-color: hsl(0 84% 60% / 0.1);
+}

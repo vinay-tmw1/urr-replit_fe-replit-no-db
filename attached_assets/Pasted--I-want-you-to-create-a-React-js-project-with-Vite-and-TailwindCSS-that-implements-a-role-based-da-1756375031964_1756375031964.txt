@@ -1,0 +1,74 @@
+
+I want you to create a React.js project (with Vite and TailwindCSS) that implements a role-based dashboard system.
+
+**Project Requirements:**
+
+1. Initialize project with Vite + React + TailwindCSS.
+2. Create the following folder structure:
+
+src/
+  ├── assets/
+  ├── components/
+      ├── Sidebar.jsx
+      ├── Navbar.jsx
+      ├── ProtectedRoute.jsx
+      └── LogoutButton.jsx
+  ├── context/
+      └── AuthContext.jsx
+  ├── dashboards/
+      ├── SuperAdminDashboard.jsx
+      ├── AdminDashboard.jsx
+      └── UserDashboard.jsx
+  ├── pages/
+      ├── Login.jsx
+      ├── Dashboard.jsx
+      ├── NotFound.jsx
+      ├── Overview.jsx
+      ├── Users.jsx
+      ├── ContactFormEnquiries.jsx
+      ├── CustomizedRequest.jsx
+      ├── Sells.jsx
+      ├── ProductList.jsx
+      ├── CRMEmail.jsx
+      ├── Events.jsx
+      ├── ProductPage.jsx
+      └── Cart.jsx
+  ├── utils/
+      ├── api.js
+      ├── auth.js
+      └── validation.js
+  ├── App.jsx
+  ├── index.css
+  └── main.jsx
+
+**Functionality:**
+- `Login.jsx` → A common login screen for all users. Calls backend `/api/login` and receives `{ token, role }`.
+- `AuthContext.jsx` → Stores login state, token, and role globally.
+- `Sidebar.jsx` → Dynamically loads different menu items based on role:
+   - Super Admin → All options
+   - Admin → Limited options
+   - User → Minimal options
+- `Dashboard.jsx` → Layout with Sidebar + Main content (`<Outlet />` for pages).
+- `ProtectedRoute.jsx` → Restricts access if user is not logged in.
+- Pages → Create placeholder pages with `<h1>PageName</h1>`.
+- `api.js` → Wrapper for Axios with token support.
+- `auth.js` → Utility to get/set/remove tokens and roles.
+- TailwindCSS → Use for styling.
+
+**Routing:**
+- Use React Router v6.
+- `/login` → Login page
+- `/dashboard/*` → Dashboard with role-based sidebar
+- Each sidebar link points to its own page (e.g., `/dashboard/overview`, `/dashboard/users`, etc.).
+- Redirect to `/login` if not authenticated.
+- Redirect to `/dashboard/overview` after successful login.
+
+**Goal:**
+A working role-based single-page app:
+- User logs in once.
+- Based on role → sees the correct sidebar and pages.
+- Clicking sidebar items shows pages inside the dashboard layout.
+- Logout clears token and redirects to `/login`.
+
+Generate the complete project with boilerplate code for all components and pages.
+ and my api is connected to backend Django and postgres.
